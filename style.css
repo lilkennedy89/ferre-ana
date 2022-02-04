@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+}
+
+
+/*titulo--inicio*/
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+}
+
+.titulo h3 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+/*titulo--fin*/
+
+/*nav.bar----inicio*/
+.navbar {
+    background: #000000;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+/*nav.bar----fin/
+
+/*logo.grande--inicio*/
+/* .img-logo img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+} */
+/*logo.grande--fin*/
+
+/*bienvenida----inicio*/
+.bienvenida {
+    text-align: center;
+    color: #fff;
+    background: #000000;
+}
+
+.bienvenida h1 {
+    font-size: 72px;
+    font-family: 'Playfair Display', serif;
+}
+
+.bienvenida p {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 10px;
+}
+/*bienvenida----fin*/
+
+/*quines somos.------inicio*/
+.cuadro1 {
+    grid-area: cuadro1;
+    text-align: center;
+}
+
+.cuadro2 {
+    grid-area: cuadro2;
+}
+
+.grid-container1 {
+    display: grid;
+    height: 550px;
+
+    grid-template: 
+    "cuadro1    cuadro2"     550px /
+    50%       auto;
+}
+
+.cuadro1 h1 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 150px;
+}
+
+.cuadro1 p {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.cuadro2 img {
+    height: 100%;
+    width: 100%;
+}
+/*quines somos.------fin*/
+
+/*pruductos de calidad----inicio*/
+.produc {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    display: grid;
+}
+
+.cali {
+    margin-top: 100px;
+}
+
+.txt {
+    line-height: 1.75em;
+    font-family: 'GFS Didot', serif;
+}
